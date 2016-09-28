@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79982191-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <meta charset="UTF-8">
+    <title>Roshan Selladurai</title>
+    
+    
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://cdn.jsdelivr.net/foundation/6.1.1/foundation.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300'>
+
+        <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      /*
+ * Vars
+ */
+/*
+ * Mixins
+ */
+/*
+ * Main and utils
+ */
+
+                        
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+ padding-top: 0px!important ;
+  color: white;
+    background-image: url(https://dl.dropboxusercontent.com/s/o4s9wnsr2zchwx3/Backgrund.png?dl=0);
+  background-repeat:no-repeat;
+   background-size:cover;
+        height: 100vh;
+    width: 100% !important ;
+}
+            body p {font-size: 16px !important;}
+
+.text-right {
+  text-align: right;
+}
+
+/*
+ * Card
+ */
+#card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  background-color: #f9f9f9  !important;
+  background-image: url(https://dl.dropboxusercontent.com/s/bsvx5nh6a9uz9kp/subtle-dots.png?dl=0) !important;
+  height: 550px !important;
+  width: 940px;
+  box-shadow: 0px 12px 38px rgba(44, 62, 80, 0.8);
+  overflow: hidden;
+}
+            
+#card a { color: white; }
+#card a:link { color: white; text-decoration: underline;}
+#card.white {
+  color: #f9f9f9;
+}
+#card.white {
+  color: #2C3E50 !important; 
+}
+#card.white #top-bar__back-btn {
+  opacity: 1;
+  cursor: pointer;
+    color: white ;
+}
+#card.white #top-bar__lang-selector a {
+  color: #2C3E50;
+  border-color: #2C3E50;
+}
+#card.white #top-bar__lang-selector a.active {
+  color: white;
+  background-color: white;
+}
+#card.white #card__buttons a[data-social] {
+  color: #2C3E50;
+}
+#card.white #card__buttons a[data-social]:not(.active):hover {
+  color: #2C3E50;
+  border-color: #2C3E50;
+}
+#card #top-bar__back-btn {
+  transition-property: opacity;
+  opacity: 0;
+  transition-duration: .35s;
+  cursor: inherit;
+    color: white ; 
+}
+#card #card__buttons {
+  padding: 30px !important;
+    padding-left: 0px !important;
+    transform: translateX(-10px) !important;
+}
+#card #card__buttons a {
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  text-align: center;
+  padding: 0;
+  margin: 0 5px;
+    transition: all 0.4s linear; 
+  position: relative;
+  z-index: 8;
+}
+#card #card__buttons a[data-social=none].active, #card #card__buttons a[data-social=none]:hover {
+  color: #2C3E50;
+  border-color: #2C3E50;
+}
+#card #card__buttons a[data-social=dribbble].active, #card #card__buttons a[data-social=dribbble]:hover {
+  color: #42A4E0 !important;
+  border-color: #42A4E0;
+}
+#card #card__buttons a[data=fb].active, #card #card__buttons a[data=fb]:hover {
+  color: #3b5998 !important;
+  border-color: #3b5998;
+} 
+#card #card__buttons a[data=twitter].active, #card #card__buttons a[data=twitter]:hover {
+  color: #00aced !important;
+  border-color: #00aced;
+} 
+
+#card #card__buttons a[data=instagram].active, #card #card__buttons a[data=instagram]:hover {
+  color: #517fa4 !important;
+  border-color: #517fa4;
+} 
+
+#card #card__buttons a[data=snapchat].active, #card #card__buttons a[data=snapchat]:hover {
+  color: #fffc00 !important;
+  border-color: #fffc00;
+} 
+            
+            #card #card__buttons a[data=gmail].active, #card #card__buttons a[data=gmail]:hover {
+  color: #dd4b39 !important;
+  border-color: #dd4b39;
+}
+            
+#card #card__buttons a[data-social=behance].active, #card #card__buttons a[data-social=behance]:hover {
+  color: #81CFE0 !important;
+  border-color: #81CFE0;
+}
+#card #card__buttons a[data-social=peloton].active, #card #card__buttons a[data-social=peloton]:hover {
+  color: #ffb347 !important;
+  border-color: #ffb347;
+}
+     
+            
+/*#card #card__buttons a[data-social=foodraisers].active, #card #card__buttons a[data-social=foodraisers]:hover {
+  color: #81BB47 !important;
+  border-color: #81BB47;
+}  */         
+            
+            
+            
+#card #card__buttons a[data-social=about].active, #card #card__buttons a[data-social=about]:hover {
+  color: #4EB347 !important;
+  border-color: #4EB347;
+}
+            
+#card #card__buttons a[data=linkedin].active, #card #card__buttons a[data=linkedin]:hover {
+  color: #006699 !important;
+  border-color: #006699;
+}            
+
+#card #card__buttons a[data-social=twitter].active, #card #card__buttons a[data-social=twitter]:hover {
+  color: #55acee;
+  border-color: #55acee;
+}
+#card #card__buttons a[data-social=instagram].active, #card #card__buttons a[data-social=instagram]:hover {
+  color: #3f729b;
+  border-color: #3f729b;
+}
+#card #card__buttons a[data-social=snapchat].active, #card #card__buttons a[data-social=snapchat]:hover {
+  color: #fffc00;
+  border-color: #fffc00;
+}
+#card #card__buttons a[data-social=vimeo].active, #card #card__buttons a[data-social=vimeo]:hover {
+  color: #1ab7ea;
+  border-color: #1ab7ea;
+}
+#card #card__buttons a.active {
+  background-color: #2C3E50;
+}
+
+#card__top-bar {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 20;
+  padding: 15px;
+}
+
+#top-bar__lang-selector,
+#top-bar__close-btn {
+  margin-left: auto;
+}
+
+#top-bar__lang-selector a {
+  color: white;
+  display: inline-block;
+  text-align: center;
+  font-size: 80%;
+  height: 32px;
+  width: 32px;
+  line-height: 32px;
+  padding: 0;
+  margin: 0 5px;
+  border: 1px solid white;
+  border-radius: 100px;
+}
+#top-bar__lang-selector a.active {
+  color: #fff;
+  background-color: white;
+}
+
+#top-bar__close-btn,
+#top-bar__back-btn {
+  cursor: pointer;
+    color: white ; 
+}
+
+#card__tabs {
+  flex: 0 0 490px;
+  position: relative;
+  z-index: 20;
+  position: relative;
+}
+
+.single-tab {
+  transition: opacity 1.2s;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 20px;
+  bottom: 0;
+  right: 20px;
+  opacity: 0;
+}
+.single-tab:not(:first-child) {
+  color: #fff;
+}
+.single-tab.active {
+  z-index: 10;
+  opacity: 1;
+}
+.single-tab.active .singe-tab__image {
+  transform: translateX(-400px);
+  transition: all 0.4s cubic-bezier(0.2, 0.97, 0.39, 1) 0.7s;
+    max-height: 100% !important;
+    max-width: 360px !important;
+    margin-top: 0px !important;
+    align-content: center !important;
+}
+
+.single-tab.active .singe-tab__image2 {
+  transform: translateX(-430px) !important;
+  transition: all 0.4s cubic-bezier(0.2, 0.97, 0.39, 1) 0.7s !important;
+    height: 400px !important;
+    width: 180px !important;
+    margin-top: 90px !important; 
+    
+} 
+            
+.single-tab.active .singe-tab__image3 {
+  transform: translateX(-450px) !important;
+  transition: all 0.4s cubic-bezier(0.2, 0.97, 0.39, 1) 0.7s !important;
+    height: 400px !important;
+    width: 200px !important;
+    margin-top: 100px !important; 
+    
+} 
+.single-tab.active .singe-tab__image4 {
+  transform: translateX(500px) !important;
+  transition: all 0.4s cubic-bezier(0.2, 0.97, 0.39, 1) 0.7s !important;
+    height: 400px !important;
+    width: 200px !important;
+    margin-top: 100px !important; 
+    
+} 
+            
+.single-tab.active .singe-tab__image4 {
+  transform: translateX(-733px) !important;
+  transition: all 0.4s cubic-bezier(0.2, 0.97, 0.39, 1) 0.7s !important;
+    height: 400px !important;
+    width: 250px !important;
+    margin-top: 60px !important; 
+    
+} 
+    
+            .menu a { color: #2C3E50 !important; text-decoration: none !important;}   
+            
+.single-tab__header {
+  line-height: 1;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+            
+.single-tab__header .my {
+  display: flex;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.single-tab__header .myblack {
+  display: flex;
+  font-weight: 700;
+  text-transform: capitalize;
+color: #2C3E50 !important; 
+            }
+
+/*main font size */            
+.single-tab__content {
+  font-size: 1.0rem;
+  width: 60%;
+}
+.single-tab__contentblack {
+  font-size: 1.0rem;
+  width: 60%;
+    color: #2C3E50 ;
+}
+.single-tab__content .button {
+  font-size: 0.7rem;
+  padding: 0.5rem;
+  margin-bottom: 0;
+  border-color: white;
+  color: white;
+}
+.single-tab__content .button:hover {
+  color: white ;
+  border-color: white;
+}
+            
+.single-tab__content .button a {
+  color: white ;
+}
+
+.single-tab__content2 {
+  font-size: 1.0rem;
+  width: 100%;
+    padding-top: 20px !important; 
+    padding-left: 10px !important;
+    align-content: center !important;
+    align-items: center !important;
+}
+
+.single-tab__content2 .button {
+  font-size: 0.7rem;
+  padding: 0.5rem;
+  margin-bottom: 0;
+  border-color: white;
+  color: white;
+}
+.single-tab__content2 .button:hover {
+  color: white ;
+  background-color: white;
+  border-color: white;
+}
+            
+.single-tab__content2 .button a {
+  color: white ;
+}
+            
+.singe-tab__image {
+  transform: translateX(0);
+ max-height: 100px !important; 
+    max-width: 250px !important;
+  transition: all 0.1s;
+  margin: 0;
+  position: absolute;
+  right: -400px;
+  top: 20px;
+}
+            
+.singe-tab__image2 {
+  transform: translateX(0);
+  transition: all 0.1s;
+  margin: 0;
+  position: absolute;
+  right: -400px;
+  top: 20px;
+}
+            
+.singe-tab__image3 {
+  transform: translateX(0);
+  transition: all 0.1s;
+  margin: 0;
+  position: absolute;
+  right: -400px;
+  top: 20px;
+}
+.singe-tab__image4 {
+  transform: translateX(0);
+  transition: all 0.1s;
+  margin: 0;
+  position: absolute;
+  right: -400px;
+  top: 20px;
+}
+            
+.singe-tab__image5 {
+  transform: translateX(0);
+  transition: all 0.1s;
+  margin: 0;
+  position: absolute;
+  right: -400px;
+  top: 20px;
+}
+
+#card__credits {
+  position: relative;
+  z-index: 20;
+  padding: 15px;
+  font-size: 80%;
+}
+
+#card__credits a { color: #2C3E50 !important;}
+   #card  #tabs__tab-dribbble #card__buttons {display: none !important;}
+            
+.circle-overlay {
+  display: block;
+  position: absolute;
+  animation-name: expandCircleOverlay;
+  transform: scale(1);
+  animation-duration: 2s;
+  z-index: 5;
+ width: 1200px;
+  height: 1200px;
+  border-radius: 3000px;
+}
+.circle-overlay.overlay-none {
+  display: block;
+  position: absolute;
+  animation-name: expandCircleOverlay;
+  transform: scale(1);
+  animation-duration: 2.5s;
+  z-index: 5;
+  width: 1850px;
+  height: 1850px;
+  border-radius: 3000px;
+}
+.circle-overlay.overlay-dribbble {
+  display: block;
+  position: absolute;
+  animation-name: expandCircleOverlay;
+  transform: scale(1);
+  animation-duration: 2s;
+  z-index: 5;
+ width: 1850px; !important;
+  height: 1850px; !important;
+  border-radius: 3000px;
+}
+
+.circle-overlay.overlay-none {
+  background-color: #f9f9f9;
+    background-image: url(https://dl.dropboxusercontent.com/s/bsvx5nh6a9uz9kp/subtle-dots.png?dl=0) !important;
+}
+.circle-overlay.overlay-about {
+  background-color: #4EB347;
+    background-image: url(https://dl.dropboxusercontent.com/s/bsvx5nh6a9uz9kp/subtle-dots.png?dl=0) !important;
+}
+.circle-overlay.overlay-behance {
+  background-color: #81CFE0;
+  background-image: url(https://dl.dropboxusercontent.com/s/bsvx5nh6a9uz9kp/subtle-dots.png?dl=0) !important;
+}
+.circle-overlay.overlay-peloton {
+  background-color: #ffb347;
+    background-image: url(https://dl.dropboxusercontent.com/s/bsvx5nh6a9uz9kp/subtle-dots.png?dl=0) !important;
+}
+            
+            
+.circle-overlay.overlay-foodraisers {
+  background-color: #81BB47;
+    background-image: url(https://dl.dropboxusercontent.com/s/bsvx5nh6a9uz9kp/subtle-dots.png?dl=0) !important;
+}
+                 
+            
+            
+            
+.circle-overlay.overlay-dribbble {
+  background-color: #42A4E0;
+    background-image: url(https://dl.dropboxusercontent.com/s/bsvx5nh6a9uz9kp/subtle-dots.png?dl=0) !important;
+}
+ .circle-overlay.overlay-linkedin {
+  background-color: #006699;
+    background-image: url(https://dl.dropboxusercontent.com/s/bsvx5nh6a9uz9kp/subtle-dots.png?dl=0) !important;
+}           
+.circle-overlay.overlay-twitter {
+  background-color: #55acee;
+    background-image: url(https://dl.dropboxusercontent.com/s/bsvx5nh6a9uz9kp/subtle-dots.png?dl=0) !important;
+}
+.circle-overlay.overlay-instagram {
+  background-color: #3f729b;
+}
+.circle-overlay.overlay-snapchat {
+  background-color: #fffc00;
+}
+.circle-overlay.overlay-vimeo {
+  background-color: #1ab7ea;
+}
+
+@keyframes expandCircleOverlay {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+    </style>
+
+    
+       
+    
+  </head>
+
+  <body>
+
+    <div id="card">
+  
+  <div id="card__top-bar">
+    <i id="top-bar__back-btn" class="fa fa-arrow-circle-left  fa-2x" data-social="none"></i>
+   
+  </div>
+  
+  <div id="card__tabs">
+       <div id="top-bar__lang-selector" class="menu">
+   
+      </div>
+    <div id="tabs__tab-main" class="single-tab active" data-tab-name="main">
+      <div class="single-tab__header">
+          <div><br></div>
+          <div><br></div>
+       <span class="myblack">Roshan Selladurai</span>
+       <font color=#2C3E50>About Me</font>
+      </div>
+        <br>
+      <div class="single-tab__contentblack">
+        <p>
+          Roshan is an Indiana Hoosier with a background in consulting and finance. He is currently working as an equity analyst at Peloton. He is also a growth marketer at New Story Charity, a non-profit startup backed by Y Combinator. Roshan previously held stints in consulting, capital markets, and a human-computer interaction technology startup. In his free time he enjoys playing strategy games with friends, traveling, and reading.
+        </p>
+      </div>
+      <figure class="singe-tab__image">
+        <img src="https://dl.dropboxusercontent.com/s/qgglrjakbcnq10l/roshan%20full.png?dl=0" alt=""/>
+      </figure>
+        
+        
+        <div id="card__buttons">
+    <ul class="menu">
+        <li>
+        <a href="#" data-social="about" class="fa fa-user fa-lg"></a>
+      </li>
+         <li>
+        <a href="#" data-social="dribbble" class="fa fa-heart fa-lg"></a>
+      </li>
+        <li>
+          <a href="#" data-social="peloton" class="icon-pelotonpbig"></a>
+      </li>
+      <li>
+        <a href="#" data-social="behance" class="fa fa-home fa-lg"></a>
+      </li>
+        <li>
+        <a href="http://www.linkedin.com/in/roshanselladurai" data="linkedin" target="_blank" class="fa fa-linkedin fa-lg"></a>
+      </li>
+        <li>
+        <a href="http://www.facebook.com/roshan.selladurai" data="fb" target="_blank" class="fa fa-facebook fa-lg"></a>
+      </li>
+        <li>
+        <a href="http://www.twitter.com/roshofosho456" data="twitter" target="_blank" class="fa fa-twitter fa-lg"></a>
+      </li>
+        <li>
+        <a href="http://www.instagram.com/therealrosho" data="instagram" target="_blank" class="fa fa-instagram fa-lg"></a>
+      </li>
+        <li>
+        <a href="http://www.snapchat.com/add/roshofosho456" data="snapchat" target="_blank" class="fa fa-snapchat-ghost fa-lg"></a>
+        </li>
+        <li>
+        <a href="mailto:roshan.selladurai@gmail.com" data="gmail" target="_blank" class="fa fa-envelope fa-lg"></a>
+      </li>
+    </ul>
+        
+        
+      </div> </div>
+
+     
+      <div id="tabs__tab-dribbble" class="single-tab" data-tab-name="dribbble">
+      <div class="single-tab__header">
+      </div>
+      <div class="single-tab__content2">
+        <img src="https://dl.dropboxusercontent.com/s/0ajwdy2au8vo2ye/Interest.png?dl=0" alt=""/>
+    </div>
+      </div>
+   
+      
+      <div id="tabs__tab-behance" class="single-tab" data-tab-name="behance">
+      <div class="single-tab__header">
+        <div><br></div>
+           <div><br></div>
+          <div><br></div>
+       <span class="my">New Story Charity</span>
+       Growth Marketer
+      </div>
+          <br>
+      <div class="single-tab__content">
+        <p>
+          Connecting donors to homeless families in danger to create life changing stories.
+        </p>
+          <p>
+          Backed by Y Combinator</p>
+        <a href="http://www.newstorycharity.org/" target="_blank" class="button hollow">Learn More</a>
+      </div>
+      <figure class="singe-tab__image">
+        <img src="https://dl.dropboxusercontent.com/s/83acfwtr8pm0iu3/NewStoryWebsite.png?dl=0" alt="" />
+      </figure>
+    </div>
+ 
+      
+      <div id="tabs__tab-peloton" class="single-tab" data-tab-name="peloton">
+      <div class="single-tab__header">
+          <div><br></div>
+           <div><br></div>
+          <div><br></div>
+        <span class="my">Peloton Wealth Strategists</span>
+          Equity Analyst
+      </div>
+          <br>
+      <div class="single-tab__content">
+        <p>
+          Value & Growth focused investment firm
+        </p>
+          Research and generate long ideas in Consumer, Health Care,
+          <br>and Tech sectors<p>
+           </p>
+        <a href="http://www.pelotonwealth.com/" target="_blank" class="button hollow">Learn More</a>
+      </div>
+      <figure class="singe-tab__image">
+        <img src="https://dl.dropboxusercontent.com/s/equsf1lukrsfc56/PElotonWebsite.png?dl=0" alt="" />
+      </figure>
+    </div>
+  
+        <div id="tabs__tab-foodraisers" class="single-tab" data-tab-name="foodraisers">
+      <div class="single-tab__header">
+          <div><br></div>
+           <div><br></div>
+          <div><br></div>
+        <span class="my">Foodraisers</span>
+          Co-Founder
+      </div>
+          <br>
+      <div class="single-tab__content">
+        <p>
+          Local restaurant deals used to grow local causes
+        </p>
+          Coming in 2016
+           </p>
+        <a href="http://news.iupui.edu/releases/2014/03/pitch-winners-2014.shtml" target="_blank" class="button hollow">Learn More</a>
+      </div>
+      <figure class="singe-tab__image">
+        <img src="https://dl.dropboxusercontent.com/s/mnsqt4jvwsls95t/FoodraisersWeb.png?dl=0" alt="" />
+      </figure>
+    </div>
+        
+        
+      
+      <div id="tabs__tab-about" class="single-tab" data-tab-name="about">
+          <div class="single-tab__header"></div>
+          <div class="single-tab__content"><font>
+              <p><b>I'm driven by</b> my personal values and faith</p>
+              <p><b>I believe</b> that there is a real freedom that comes through service</p>
+              <p><b>That mindset comes from</b> my parents who always served first and received last</p>
+              <p><b>I studied at Indiana University,</b> and learned that the best achievements are with your team</p>
+              <p><b>At Peloton, I've learned</b> that a company's value is entirely contingent upon the future— history does nothing for growth.</p>
+              <p><b>At New Story, I've seen</b> how confidence and humility can change the world— an audacious mission with selfless execution</p>
+              <p><b>I'm inspired by </b><a href="https://www.airbnb.com/about/founders" target="_blank">Brian</a>, 
+                  <a href="http://www.charitywater.org/about/scotts_story.php" target="_blank">Scott</a>, 
+                  <a href="https://newstorycharity.org/the-team" target="_blank">Brett</a>, 
+                  <a href="https://www.ted.com/talks/salman_khan_let_s_use_video_to_reinvent_education#" target="_blank">Sal</a>, 
+                  <a href="http://www.wsj.com/articles/tristan-walker-a-new-approach-to-personal-care-products-1450458099" target="_blank">Tristan</a>, 
+                  <a href="https://www.youtube.com/watch?v=4cl8X02Xd1I" target="_blank">Doug</a>, and
+                  <a href="http://lowercasecapital.com/proprietor/" target="_blank">Chris</a> 
+                  </p>
+               <p><b>I define success</b> as leaving things better than when I found them</p>
+              </font>  
+      </div>
+      <figure class="singe-tab__image">
+        <img src="https://dl.dropboxusercontent.com/s/qgglrjakbcnq10l/roshan%20full.png?dl=0" alt="" />
+      </figure>
+          </div>
+          
+      
+      <div id="tabs__tab-linkedin" class="single-tab" data-tab-name="linkedin">
+      <div class="single-tab__header">
+          <div><br></div>
+           <div><br></div>
+          <div><br></div>
+        <span class="my">MY</span>
+          LinkedIn
+      </div>
+      <div class="single-tab__content">
+        <p>
+        </p>
+          Connect with me on my professional network<p>
+           </p>
+        <a href="http://www.linkedin.com/roshan-selladurai" target="_blank" class="button hollow">Read More</a>
+      </div>
+      <figure class="singe-tab__image2">
+        <img src="https://dl.dropboxusercontent.com/s/rn81acx7ipojnql/Linkedin%20After.png?dl=0" alt="" />
+    </div>
+  
+      <div id="tabs__tab-twitter" class="single-tab" data-tab-name="twitter">
+      <div class="single-tab__header">
+        <span class="my">My</span>
+        Twitter.
+      </div>
+      <div class="single-tab__content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere cum sit aut quos quia temporibus officia veniam, ducimus esse non.
+        </p>
+        <a href="#" class="button hollow">Read More</a>
+      </div>
+      <figure class="singe-tab__image">
+        <img src="http://placekitten.com/220/130" alt="" />
+      </figure>
+    </div>
+ 
+      
+      <div id="tabs__tab-instagram" class="single-tab" data-tab-name="instagram">
+      <div class="single-tab__header">
+        <span class="my">My</span>
+        Instagram.
+      </div>
+      <div class="single-tab__content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere cum sit aut quos quia temporibus officia veniam, ducimus esse non.
+        </p>
+        <a href="#" class="button hollow">Read More</a>
+      </div>
+      <figure class="singe-tab__image">
+        <img src="http://placekitten.com/130/180" alt="" />
+      </figure>
+    </div>
+  
+      
+      <div id="tabs__tab-vimeo" class="single-tab" data-tab-name="vimeo">
+      <div class="single-tab__header">
+        <span class="my">My</span>
+        Vimeo.
+      </div>
+      <div class="single-tab__content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere cum sit aut quos quia temporibus officia veniam, ducimus esse non.
+        </p>
+        <a href="#" class="button hollow">Read More</a>
+      </div>
+      <figure class="singe-tab__image">
+        <img src="http://placekitten.com/150/160" alt="" />
+      </figure>
+    </div>
+  </div>
+  
+  
+  </div>
+  
+  
+</div>
+    
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
